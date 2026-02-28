@@ -1,3 +1,10 @@
+/*
+Purpose:
+This script creates new tables after checking their existence.
+If there are any table with the same name exists, it DROPS and RECREATES the tables below.
+*/
+
+
 IF OBJECT_ID ('bronze.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE bronze.crm_cust_info;
 
