@@ -1,7 +1,7 @@
 /*
 Purpose:
 This script creates a new database 'DataWarehouse' after checking its existence.
-If the database exists, it DROP and RECREATES the 'DataWarehouse' database.
+If the database exists, it DROPS and RECREATES the 'DataWarehouse' database.
 Then creates 3 schemas named: bronze, silver, gold.
 
 WARNING:
